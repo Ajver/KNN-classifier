@@ -29,6 +29,19 @@ namespace cll {
         Y = newY;
     }
 
+    void KNN::fit(Datasheet &ds) {
+        assert(ds.X.size() == ds.Y.size());
+        assert(ds.X.size() >= K);
+
+        const size_t p = ds.X[0].size();
+        for (int i = 1; i < ds.X.size(); i++) {
+            assert(ds.X[i].size() == p);
+        }
+
+        X = ds.X;
+        Y = ds.Y;
+    }
+
     std::vector<ClassificationResult> KNN::predict(std::vector<std::vector<float>>& predX) const {
         std::vector<ClassificationResult> predY;
         predY.reserve(predX.size());
