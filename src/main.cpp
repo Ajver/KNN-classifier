@@ -1,8 +1,9 @@
 #include <iostream>
-#include "subdir/dep.h"
+
+using namespace std;
+
 
 int main() {
-    std::cout << "Hi tehre. My num: " << randommm() << std::endl;
 
     return 0;
 }
