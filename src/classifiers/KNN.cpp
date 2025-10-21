@@ -4,6 +4,8 @@
 #include <iostream>
 #include <map>
 
+#include "tools/EulerDistanceMeasurement.h"
+
 
 namespace cll {
 
@@ -11,8 +13,7 @@ namespace cll {
         assert(newK > 0);
 
         K = newK;
-
-        std::cout << "Hi from the constructor! " << K << std::endl;
+        distance_measurement = new EulerDistanceMeasurement;
     }
 
     void KNN::fit(std::vector<std::vector<float>> &newX, std::vector<int> &newY) {
@@ -21,8 +22,6 @@ namespace cll {
 
         X = newX;
         Y = newY;
-
-        std::cout << "fitting... " << X.size() << "/" << Y.size() << std::endl;
     }
 
     std::vector<ClassificationResult> KNN::predict(std::vector<std::vector<float>>& predX) const {
@@ -34,19 +33,6 @@ namespace cll {
         }
 
         return predY;
-    }
-
-    // Helper function (to be moved to dedicated class later)
-    float dist_squared(std::vector<float> a, std::vector<float> b) {
-        assert(a.size() == b.size());
-
-        float sum = 0;
-        for (int i = 0; i < a.size(); i++) {
-            float diff = (a[i] - b[i]);
-            sum += diff * diff;
-        }
-
-        return sum;
     }
 
     struct Neighbor {
@@ -64,7 +50,7 @@ namespace cll {
         for (int i = 0; i < X.size(); i++) {
             std::vector<float> data_x = X[i];
 
-            float dist = dist_squared(pred_row, data_x);
+            float dist = distance_measurement->calculate_distance(pred_row, data_x);
 
             Neighbor new_ngh = Neighbor{data_x, dist, Y[i]};
 
