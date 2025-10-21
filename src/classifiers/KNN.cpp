@@ -25,8 +25,8 @@ namespace cll {
         std::cout << "fitting... " << X.size() << "/" << Y.size() << std::endl;
     }
 
-    std::vector<int> KNN::predict(std::vector<std::vector<float>>& predX) const {
-        std::vector<int> predY;
+    std::vector<ClassificationResult> KNN::predict(std::vector<std::vector<float>>& predX) const {
+        std::vector<ClassificationResult> predY;
         predY.reserve(predX.size());
 
         for (int i = 0; i < predX.size(); i++) {
@@ -55,7 +55,7 @@ namespace cll {
         int neigh_class;
     };
 
-    int KNN::predict(std::vector<float> &pred_row) const {
+    ClassificationResult KNN::predict(std::vector<float> &pred_row) const {
         Neighbor* neighbors = new Neighbor[K];
         float max_dist = -1;
         int max_dist_index = -1;
@@ -115,6 +115,7 @@ namespace cll {
             std::cout << "] = " << neighbor.neigh_class << " " << neighbor.distance << std::endl;
         }
 
+        float confidence = 0.0;
         int pred_class = 0;
         size_t max_preds_count = 0;
 
@@ -122,12 +123,15 @@ namespace cll {
             if (p.second > max_preds_count) {
                 pred_class = p.first;
                 max_preds_count = p.second;
+                confidence = static_cast<float>(max_preds_count) / K;
             }
             std::cout << '[' << p.first << "] = " << p.second << '\n';
         }
 
         delete[] neighbors;
 
-        return pred_class;
+        ClassificationResult result{pred_class, confidence, classes};
+
+        return result;
     }
 }
