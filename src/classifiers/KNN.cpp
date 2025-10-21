@@ -20,6 +20,11 @@ namespace cll {
         assert(newX.size() == newY.size());
         assert(newX.size() >= K);
 
+        const size_t p = newX[0].size();
+        for (int i = 1; i < newX.size(); i++) {
+            assert(newX[i].size() == p);
+        }
+
         X = newX;
         Y = newY;
     }

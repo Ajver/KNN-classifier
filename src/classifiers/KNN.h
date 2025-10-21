@@ -12,6 +12,7 @@ namespace cll {
         KNN(size_t);
 
         void fit(std::vector<std::vector<float>>&, std::vector<int>&) override;
+
         std::vector<ClassificationResult> predict(std::vector<std::vector<float>>&) const override;
         ClassificationResult predict(std::vector<float>&) const override;
     private:
