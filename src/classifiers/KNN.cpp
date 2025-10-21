@@ -43,8 +43,7 @@ namespace cll {
     }
 
     std::vector<ClassificationResult> KNN::predict(std::vector<std::vector<float>>& predX) const {
-        std::vector<ClassificationResult> predY;
-        predY.reserve(predX.size());
+        std::vector<ClassificationResult> predY(predX.size());
 
         for (int i = 0; i < predX.size(); i++) {
             predY[i] = predict(predX[i]);

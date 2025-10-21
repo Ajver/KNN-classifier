@@ -15,6 +15,8 @@ namespace cll {
 
         static Datasheet load_from_csv(std::string, int, int=0);
 
+        static std::pair<Datasheet, Datasheet> train_test_split(Datasheet&, float);
+
     };
 } // cll
 
