@@ -18,18 +18,28 @@ int main() {
     cout << "Train data: " << train_data.X.size() << " " << train_data.Y.size() << endl;
     cout << "Test data: " << test_data.X.size() << " " << test_data.Y.size() << endl;
 
-    KNN model(3);
-    model.fit(train_data);
+    Datasheet k_vs_accuracy;
 
-    vector<ClassificationResult> pred = model.predict(test_data.X);
+    for (int k=1; k<40; k++) {
+        KNN model(k);
+        model.fit(train_data);
 
-    int correct = 0;
-    for (int i = 0; i < pred.size(); i++) {
-        correct += static_cast<int>(pred[i].predicted_class == test_data.Y[i]);
-        // cout << "Predicted: " << pred[i].predicted_class << " (" << round(pred[i].confidence*100) << "% conf)"  << " expected: " << test_data.Y[i] << endl;
+        vector<ClassificationResult> pred = model.predict(test_data.X);
+
+        int correct = 0;
+        for (int i = 0; i < pred.size(); i++) {
+            correct += static_cast<int>(pred[i].predicted_class == test_data.Y[i]);
+            // cout << "Predicted: " << pred[i].predicted_class << " (" << round(pred[i].confidence*100) << "% conf)"  << " expected: " << test_data.Y[i] << endl;
+        }
+
+        float accuracy = static_cast<float>(correct) / test_data.X.size();
+        cout << "K = " << k << " - Accuracy: " << accuracy << endl;
+
+        k_vs_accuracy.X.push_back(vector<float>{static_cast<float>(k), accuracy});
+        k_vs_accuracy.Y.push_back(0);
     }
 
-    cout << "Accuracy: " << static_cast<float>(correct) / test_data.X.size() << endl;
+    k_vs_accuracy.save_as_csv("data/k_vs_accuracy.csv");
 
     train_data.save_as_csv("data/train_data.csv", {"Height,Weight,BmiClass"});
     test_data.save_as_csv("data/test_data.csv",  {"Height,Weight,BmiClass"});
