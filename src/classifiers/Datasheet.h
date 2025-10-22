@@ -17,6 +17,7 @@ namespace cll {
 
         static std::pair<Datasheet, Datasheet> train_test_split(Datasheet&, float);
 
+        void save_as_csv(std::string, std::vector<std::string> = {});
     };
 } // cll
 

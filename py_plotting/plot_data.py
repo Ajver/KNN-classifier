@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv("../data/bmi_simplified.csv")
+data = pd.read_csv("../data/test_data.csv")
 print(data)
 
 classes = data["BmiClass"].unique()

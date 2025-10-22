@@ -78,4 +78,36 @@ namespace cll {
 
         return std::pair(train_ds, test_ds);
     }
+
+    void Datasheet::save_as_csv(std::string filepath, std::vector<std::string> header_row) {
+        std::ofstream file(filepath);
+
+        if (!file.is_open()) {
+            std::cerr << "Failed to open file for writing: " << filepath << std::endl;
+            return;
+        }
+
+        if (!header_row.empty()) {
+            for (size_t i = 0; i < header_row.size(); i++) {
+                file << header_row[i];
+                if (i != header_row.size() - 1) {
+                    file << ",";
+                }
+            }
+            file << "\n";
+        }
+
+        for (size_t i = 0; i < X.size(); ++i) {
+            for (size_t j = 0; j < X[i].size(); ++j) {
+                file << X[i][j];
+                file << ",";
+            }
+
+            std::string class_name = int_to_class[Y[i]];
+            file << class_name << "\n";
+        }
+
+        file.close();
+    }
+
 } // cll

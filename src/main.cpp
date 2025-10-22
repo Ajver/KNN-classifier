@@ -26,10 +26,13 @@ int main() {
     int correct = 0;
     for (int i = 0; i < pred.size(); i++) {
         correct += static_cast<int>(pred[i].predicted_class == test_data.Y[i]);
-        cout << "Predicted: " << pred[i].predicted_class << " (" << round(pred[i].confidence*100) << "% conf)"  << " expected: " << test_data.Y[i] << endl;
+        // cout << "Predicted: " << pred[i].predicted_class << " (" << round(pred[i].confidence*100) << "% conf)"  << " expected: " << test_data.Y[i] << endl;
     }
 
     cout << "Accuracy: " << static_cast<float>(correct) / test_data.X.size() << endl;
+
+    train_data.save_as_csv("data/train_data.csv", {"Height,Weight,BmiClass"});
+    test_data.save_as_csv("data/test_data.csv",  {"Height,Weight,BmiClass"});
 
     return 0;
 }
