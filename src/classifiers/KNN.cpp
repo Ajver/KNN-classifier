@@ -111,11 +111,11 @@ namespace cll {
                 classes[neighbor.neigh_class]++;
             }
 
-            std::cout << " - [";
-            for (auto w : neighbor.weights) {
-                std::cout << w << ", ";
-            }
-            std::cout << "] = " << neighbor.neigh_class << " " << neighbor.distance << std::endl;
+            // std::cout << " - [";
+            // for (auto w : neighbor.weights) {
+            //     std::cout << w << ", ";
+            // }
+            // std::cout << "] = " << neighbor.neigh_class << " " << neighbor.distance << std::endl;
         }
 
         float confidence = 0.0;
@@ -128,7 +128,7 @@ namespace cll {
                 max_preds_count = p.second;
                 confidence = static_cast<float>(max_preds_count) / K;
             }
-            std::cout << '[' << p.first << "] = " << p.second << '\n';
+            // std::cout << '[' << p.first << "] = " << p.second << '\n';
         }
 
         delete[] neighbors;
