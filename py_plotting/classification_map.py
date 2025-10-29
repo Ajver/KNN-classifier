@@ -2,17 +2,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv("../data/classification_map.csv", header=None)
-print(data)
+map_data = pd.read_csv("../data/classification_map.csv", header=None)
+source_data = pd.read_csv("../data/train_data.csv")
 
-classes = data.iloc[:, 2].unique()
+classes = map_data.iloc[:, 2].unique()
 class_to_color = {cls: idx for idx, cls in enumerate(classes)}
-colors = data.iloc[:, 2].map(class_to_color)
+map_colors = map_data.iloc[:, 2].map(class_to_color)
+src_data_colors = source_data.iloc[:, 2].map(class_to_color)
 
 print(classes)
 
 ax = plt.subplots()[1]
-scatter = ax.scatter(data.iloc[:, 1], data.iloc[:, 0], marker="s", c=colors, cmap='viridis')
-# ax.legend(scatter.legend_elements()[0], classes)
+ax.scatter(map_data.iloc[:, 1], map_data.iloc[:, 0], marker="s", c=map_colors, cmap='viridis', alpha=0.4)
+
+ax.scatter(source_data.iloc[:, 1], source_data.iloc[:, 0], c=src_data_colors, cmap='viridis')
+
 plt.show()
 
