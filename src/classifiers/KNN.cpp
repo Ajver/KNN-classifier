@@ -27,19 +27,33 @@ namespace cll {
 
         X = newX;
         Y = newY;
+
+        // Data normalization
+        min_values = newX[0];
+        max_values = newX[0];
+
+        for (auto data_row : newX) {
+            for (int i = 0; i < data_row.size(); i++) {
+                if (data_row[i] < min_values[i]) {
+                    min_values[i] = data_row[i];
+                }
+                if (data_row[i] > max_values[i]) {
+                    max_values[i] = data_row[i];
+                }
+            }
+        }
+
+        for (auto & data_row : X) {
+            for (int feature_idx = 0; feature_idx < data_row.size(); feature_idx++) {
+                const float min_val = min_values[feature_idx];
+                const float max_val = max_values[feature_idx];
+                data_row[feature_idx] = (data_row[feature_idx] - min_val) / (max_val - min_val);
+            }
+        }
     }
 
     void KNN::fit(Datasheet &ds) {
-        assert(ds.X.size() == ds.Y.size());
-        assert(ds.X.size() >= K);
-
-        const size_t p = ds.X[0].size();
-        for (int i = 1; i < ds.X.size(); i++) {
-            assert(ds.X[i].size() == p);
-        }
-
-        X = ds.X;
-        Y = ds.Y;
+        fit(ds.X, ds.Y);
     }
 
     std::vector<ClassificationResult> KNN::predict(std::vector<std::vector<float>>& predX) const {
@@ -58,7 +72,14 @@ namespace cll {
         int neigh_class;
     };
 
-    ClassificationResult KNN::predict(std::vector<float> &pred_row) const {
+    ClassificationResult KNN::predict(std::vector<float> pred_row) const {
+        // Normalization
+        for (int feature_idx = 0; feature_idx < pred_row.size(); feature_idx++) {
+            const float min_val = min_values[feature_idx];
+            const float max_val = max_values[feature_idx];
+            pred_row[feature_idx] = (pred_row[feature_idx] - min_val) / (max_val - min_val);
+        }
+
         Neighbor* neighbors = new Neighbor[K];
         float max_dist = -1;
         int max_dist_index = -1;

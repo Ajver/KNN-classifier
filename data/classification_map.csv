@@ -3,12 +3,12 @@
 1.4295,31.5957,Underweight
 1.4295,40.546,Underweight
 1.4295,49.4963,Underweight
-1.4295,58.4467,Normal Weight
-1.4295,67.397,Overweight
-1.4295,76.3473,Overweight
-1.4295,85.2977,Overweight
+1.4295,58.4467,Underweight
+1.4295,67.397,Underweight
+1.4295,76.3473,Underweight
+1.4295,85.2977,Underweight
 1.4295,94.248,Obese
-1.4295,103.198,Overweight
+1.4295,103.198,Obese
 1.4295,112.149,Obese
 1.4295,121.099,Obese
 1.4295,130.049,Obese
@@ -33,12 +33,12 @@
 1.45187,31.5957,Underweight
 1.45187,40.546,Underweight
 1.45187,49.4963,Underweight
-1.45187,58.4467,Normal Weight
-1.45187,67.397,Overweight
-1.45187,76.3473,Overweight
-1.45187,85.2977,Overweight
+1.45187,58.4467,Underweight
+1.45187,67.397,Underweight
+1.45187,76.3473,Underweight
+1.45187,85.2977,Underweight
 1.45187,94.248,Obese
-1.45187,103.198,Overweight
+1.45187,103.198,Obese
 1.45187,112.149,Obese
 1.45187,121.099,Obese
 1.45187,130.049,Obese
@@ -63,12 +63,12 @@
 1.47423,31.5957,Underweight
 1.47423,40.546,Underweight
 1.47423,49.4963,Underweight
-1.47423,58.4467,Normal Weight
-1.47423,67.397,Overweight
-1.47423,76.3473,Overweight
-1.47423,85.2977,Overweight
+1.47423,58.4467,Underweight
+1.47423,67.397,Underweight
+1.47423,76.3473,Underweight
+1.47423,85.2977,Obese
 1.47423,94.248,Obese
-1.47423,103.198,Overweight
+1.47423,103.198,Obese
 1.47423,112.149,Obese
 1.47423,121.099,Obese
 1.47423,130.049,Obese
@@ -93,12 +93,12 @@
 1.4966,31.5957,Underweight
 1.4966,40.546,Underweight
 1.4966,49.4963,Underweight
-1.4966,58.4467,Normal Weight
-1.4966,67.397,Overweight
-1.4966,76.3473,Overweight
-1.4966,85.2977,Overweight
+1.4966,58.4467,Underweight
+1.4966,67.397,Underweight
+1.4966,76.3473,Underweight
+1.4966,85.2977,Obese
 1.4966,94.248,Obese
-1.4966,103.198,Overweight
+1.4966,103.198,Obese
 1.4966,112.149,Obese
 1.4966,121.099,Obese
 1.4966,130.049,Obese
@@ -123,12 +123,12 @@
 1.51897,31.5957,Underweight
 1.51897,40.546,Underweight
 1.51897,49.4963,Underweight
-1.51897,58.4467,Normal Weight
-1.51897,67.397,Overweight
-1.51897,76.3473,Overweight
-1.51897,85.2977,Overweight
+1.51897,58.4467,Underweight
+1.51897,67.397,Underweight
+1.51897,76.3473,Obese
+1.51897,85.2977,Obese
 1.51897,94.248,Obese
-1.51897,103.198,Overweight
+1.51897,103.198,Obese
 1.51897,112.149,Obese
 1.51897,121.099,Obese
 1.51897,130.049,Obese
@@ -153,12 +153,12 @@
 1.54133,31.5957,Underweight
 1.54133,40.546,Underweight
 1.54133,49.4963,Underweight
-1.54133,58.4467,Normal Weight
-1.54133,67.397,Overweight
-1.54133,76.3473,Overweight
-1.54133,85.2977,Overweight
+1.54133,58.4467,Underweight
+1.54133,67.397,Normal Weight
+1.54133,76.3473,Obese
+1.54133,85.2977,Obese
 1.54133,94.248,Obese
-1.54133,103.198,Overweight
+1.54133,103.198,Obese
 1.54133,112.149,Obese
 1.54133,121.099,Obese
 1.54133,130.049,Obese
@@ -184,11 +184,11 @@
 1.5637,40.546,Underweight
 1.5637,49.4963,Underweight
 1.5637,58.4467,Normal Weight
-1.5637,67.397,Overweight
-1.5637,76.3473,Overweight
-1.5637,85.2977,Overweight
+1.5637,67.397,Normal Weight
+1.5637,76.3473,Obese
+1.5637,85.2977,Obese
 1.5637,94.248,Obese
-1.5637,103.198,Overweight
+1.5637,103.198,Obese
 1.5637,112.149,Obese
 1.5637,121.099,Obese
 1.5637,130.049,Obese
@@ -214,11 +214,11 @@
 1.58607,40.546,Underweight
 1.58607,49.4963,Underweight
 1.58607,58.4467,Normal Weight
-1.58607,67.397,Overweight
-1.58607,76.3473,Overweight
-1.58607,85.2977,Overweight
+1.58607,67.397,Normal Weight
+1.58607,76.3473,Obese
+1.58607,85.2977,Obese
 1.58607,94.248,Obese
-1.58607,103.198,Overweight
+1.58607,103.198,Obese
 1.58607,112.149,Obese
 1.58607,121.099,Obese
 1.58607,130.049,Obese
@@ -242,13 +242,13 @@
 1.60843,22.6453,Underweight
 1.60843,31.5957,Underweight
 1.60843,40.546,Underweight
-1.60843,49.4963,Underweight
+1.60843,49.4963,Normal Weight
 1.60843,58.4467,Normal Weight
-1.60843,67.397,Overweight
+1.60843,67.397,Normal Weight
 1.60843,76.3473,Overweight
-1.60843,85.2977,Overweight
+1.60843,85.2977,Obese
 1.60843,94.248,Obese
-1.60843,103.198,Overweight
+1.60843,103.198,Obese
 1.60843,112.149,Obese
 1.60843,121.099,Obese
 1.60843,130.049,Obese
@@ -272,13 +272,13 @@
 1.6308,22.6453,Underweight
 1.6308,31.5957,Underweight
 1.6308,40.546,Underweight
-1.6308,49.4963,Underweight
+1.6308,49.4963,Normal Weight
 1.6308,58.4467,Normal Weight
-1.6308,67.397,Overweight
+1.6308,67.397,Normal Weight
 1.6308,76.3473,Overweight
-1.6308,85.2977,Overweight
+1.6308,85.2977,Obese
 1.6308,94.248,Obese
-1.6308,103.198,Overweight
+1.6308,103.198,Obese
 1.6308,112.149,Obese
 1.6308,121.099,Obese
 1.6308,130.049,Obese
@@ -304,11 +304,11 @@
 1.65317,40.546,Underweight
 1.65317,49.4963,Underweight
 1.65317,58.4467,Normal Weight
-1.65317,67.397,Overweight
-1.65317,76.3473,Overweight
-1.65317,85.2977,Overweight
+1.65317,67.397,Normal Weight
+1.65317,76.3473,Normal Weight
+1.65317,85.2977,Obese
 1.65317,94.248,Obese
-1.65317,103.198,Overweight
+1.65317,103.198,Obese
 1.65317,112.149,Obese
 1.65317,121.099,Obese
 1.65317,130.049,Obese
@@ -338,7 +338,7 @@
 1.67553,76.3473,Overweight
 1.67553,85.2977,Overweight
 1.67553,94.248,Obese
-1.67553,103.198,Overweight
+1.67553,103.198,Obese
 1.67553,112.149,Obese
 1.67553,121.099,Obese
 1.67553,130.049,Obese
@@ -368,7 +368,7 @@
 1.6979,76.3473,Overweight
 1.6979,85.2977,Overweight
 1.6979,94.248,Obese
-1.6979,103.198,Overweight
+1.6979,103.198,Obese
 1.6979,112.149,Obese
 1.6979,121.099,Obese
 1.6979,130.049,Obese
@@ -391,14 +391,14 @@
 1.72027,13.695,Underweight
 1.72027,22.6453,Underweight
 1.72027,31.5957,Underweight
-1.72027,40.546,Underweight
-1.72027,49.4963,Underweight
+1.72027,40.546,Normal Weight
+1.72027,49.4963,Normal Weight
 1.72027,58.4467,Normal Weight
 1.72027,67.397,Normal Weight
 1.72027,76.3473,Overweight
 1.72027,85.2977,Overweight
-1.72027,94.248,Obese
-1.72027,103.198,Overweight
+1.72027,94.248,Overweight
+1.72027,103.198,Obese
 1.72027,112.149,Obese
 1.72027,121.099,Obese
 1.72027,130.049,Obese
@@ -420,15 +420,15 @@
 1.72027,273.255,Obese
 1.74263,13.695,Underweight
 1.74263,22.6453,Underweight
-1.74263,31.5957,Underweight
-1.74263,40.546,Underweight
-1.74263,49.4963,Underweight
+1.74263,31.5957,Normal Weight
+1.74263,40.546,Normal Weight
+1.74263,49.4963,Normal Weight
 1.74263,58.4467,Normal Weight
 1.74263,67.397,Normal Weight
 1.74263,76.3473,Overweight
 1.74263,85.2977,Overweight
 1.74263,94.248,Overweight
-1.74263,103.198,Overweight
+1.74263,103.198,Obese
 1.74263,112.149,Obese
 1.74263,121.099,Obese
 1.74263,130.049,Obese
@@ -448,17 +448,17 @@
 1.74263,255.354,Obese
 1.74263,264.304,Obese
 1.74263,273.255,Obese
-1.765,13.695,Underweight
-1.765,22.6453,Underweight
-1.765,31.5957,Underweight
-1.765,40.546,Underweight
-1.765,49.4963,Underweight
+1.765,13.695,Normal Weight
+1.765,22.6453,Normal Weight
+1.765,31.5957,Normal Weight
+1.765,40.546,Normal Weight
+1.765,49.4963,Normal Weight
 1.765,58.4467,Normal Weight
 1.765,67.397,Normal Weight
-1.765,76.3473,Overweight
+1.765,76.3473,Normal Weight
 1.765,85.2977,Overweight
 1.765,94.248,Overweight
-1.765,103.198,Overweight
+1.765,103.198,Obese
 1.765,112.149,Obese
 1.765,121.099,Obese
 1.765,130.049,Obese
@@ -478,17 +478,17 @@
 1.765,255.354,Obese
 1.765,264.304,Obese
 1.765,273.255,Obese
-1.78737,13.695,Underweight
-1.78737,22.6453,Underweight
-1.78737,31.5957,Underweight
-1.78737,40.546,Underweight
-1.78737,49.4963,Underweight
+1.78737,13.695,Normal Weight
+1.78737,22.6453,Normal Weight
+1.78737,31.5957,Normal Weight
+1.78737,40.546,Normal Weight
+1.78737,49.4963,Normal Weight
 1.78737,58.4467,Normal Weight
 1.78737,67.397,Normal Weight
-1.78737,76.3473,Overweight
+1.78737,76.3473,Normal Weight
 1.78737,85.2977,Overweight
 1.78737,94.248,Overweight
-1.78737,103.198,Overweight
+1.78737,103.198,Obese
 1.78737,112.149,Obese
 1.78737,121.099,Obese
 1.78737,130.049,Obese
@@ -508,14 +508,14 @@
 1.78737,255.354,Obese
 1.78737,264.304,Obese
 1.78737,273.255,Obese
-1.80973,13.695,Underweight
-1.80973,22.6453,Underweight
-1.80973,31.5957,Underweight
-1.80973,40.546,Underweight
-1.80973,49.4963,Underweight
+1.80973,13.695,Normal Weight
+1.80973,22.6453,Normal Weight
+1.80973,31.5957,Normal Weight
+1.80973,40.546,Normal Weight
+1.80973,49.4963,Normal Weight
 1.80973,58.4467,Normal Weight
 1.80973,67.397,Normal Weight
-1.80973,76.3473,Overweight
+1.80973,76.3473,Normal Weight
 1.80973,85.2977,Overweight
 1.80973,94.248,Overweight
 1.80973,103.198,Overweight
@@ -538,14 +538,14 @@
 1.80973,255.354,Obese
 1.80973,264.304,Obese
 1.80973,273.255,Obese
-1.8321,13.695,Underweight
-1.8321,22.6453,Underweight
-1.8321,31.5957,Underweight
-1.8321,40.546,Underweight
-1.8321,49.4963,Underweight
+1.8321,13.695,Normal Weight
+1.8321,22.6453,Normal Weight
+1.8321,31.5957,Normal Weight
+1.8321,40.546,Normal Weight
+1.8321,49.4963,Normal Weight
 1.8321,58.4467,Normal Weight
 1.8321,67.397,Normal Weight
-1.8321,76.3473,Overweight
+1.8321,76.3473,Normal Weight
 1.8321,85.2977,Overweight
 1.8321,94.248,Overweight
 1.8321,103.198,Overweight
@@ -568,18 +568,18 @@
 1.8321,255.354,Obese
 1.8321,264.304,Obese
 1.8321,273.255,Obese
-1.85447,13.695,Underweight
-1.85447,22.6453,Underweight
-1.85447,31.5957,Underweight
-1.85447,40.546,Underweight
-1.85447,49.4963,Underweight
+1.85447,13.695,Normal Weight
+1.85447,22.6453,Normal Weight
+1.85447,31.5957,Normal Weight
+1.85447,40.546,Normal Weight
+1.85447,49.4963,Normal Weight
 1.85447,58.4467,Normal Weight
 1.85447,67.397,Normal Weight
 1.85447,76.3473,Overweight
 1.85447,85.2977,Overweight
 1.85447,94.248,Overweight
 1.85447,103.198,Overweight
-1.85447,112.149,Obese
+1.85447,112.149,Overweight
 1.85447,121.099,Obese
 1.85447,130.049,Obese
 1.85447,139,Obese
@@ -598,18 +598,18 @@
 1.85447,255.354,Obese
 1.85447,264.304,Obese
 1.85447,273.255,Obese
-1.87683,13.695,Underweight
-1.87683,22.6453,Underweight
-1.87683,31.5957,Underweight
-1.87683,40.546,Underweight
-1.87683,49.4963,Underweight
+1.87683,13.695,Normal Weight
+1.87683,22.6453,Normal Weight
+1.87683,31.5957,Normal Weight
+1.87683,40.546,Normal Weight
+1.87683,49.4963,Normal Weight
 1.87683,58.4467,Normal Weight
-1.87683,67.397,Normal Weight
+1.87683,67.397,Overweight
 1.87683,76.3473,Overweight
 1.87683,85.2977,Overweight
 1.87683,94.248,Overweight
 1.87683,103.198,Overweight
-1.87683,112.149,Obese
+1.87683,112.149,Overweight
 1.87683,121.099,Obese
 1.87683,130.049,Obese
 1.87683,139,Obese
@@ -628,19 +628,19 @@
 1.87683,255.354,Obese
 1.87683,264.304,Obese
 1.87683,273.255,Obese
-1.8992,13.695,Underweight
-1.8992,22.6453,Underweight
-1.8992,31.5957,Underweight
-1.8992,40.546,Underweight
-1.8992,49.4963,Underweight
-1.8992,58.4467,Normal Weight
-1.8992,67.397,Normal Weight
+1.8992,13.695,Normal Weight
+1.8992,22.6453,Normal Weight
+1.8992,31.5957,Normal Weight
+1.8992,40.546,Normal Weight
+1.8992,49.4963,Normal Weight
+1.8992,58.4467,Overweight
+1.8992,67.397,Overweight
 1.8992,76.3473,Overweight
 1.8992,85.2977,Overweight
 1.8992,94.248,Overweight
 1.8992,103.198,Overweight
-1.8992,112.149,Obese
-1.8992,121.099,Obese
+1.8992,112.149,Overweight
+1.8992,121.099,Overweight
 1.8992,130.049,Obese
 1.8992,139,Obese
 1.8992,147.95,Obese
@@ -658,19 +658,19 @@
 1.8992,255.354,Obese
 1.8992,264.304,Obese
 1.8992,273.255,Obese
-1.92157,13.695,Underweight
-1.92157,22.6453,Underweight
-1.92157,31.5957,Underweight
-1.92157,40.546,Underweight
-1.92157,49.4963,Underweight
-1.92157,58.4467,Normal Weight
-1.92157,67.397,Normal Weight
+1.92157,13.695,Normal Weight
+1.92157,22.6453,Normal Weight
+1.92157,31.5957,Normal Weight
+1.92157,40.546,Normal Weight
+1.92157,49.4963,Normal Weight
+1.92157,58.4467,Overweight
+1.92157,67.397,Overweight
 1.92157,76.3473,Overweight
 1.92157,85.2977,Overweight
 1.92157,94.248,Overweight
 1.92157,103.198,Overweight
-1.92157,112.149,Obese
-1.92157,121.099,Obese
+1.92157,112.149,Overweight
+1.92157,121.099,Overweight
 1.92157,130.049,Obese
 1.92157,139,Obese
 1.92157,147.95,Obese
@@ -688,20 +688,20 @@
 1.92157,255.354,Obese
 1.92157,264.304,Obese
 1.92157,273.255,Obese
-1.94393,13.695,Underweight
-1.94393,22.6453,Underweight
-1.94393,31.5957,Underweight
-1.94393,40.546,Underweight
-1.94393,49.4963,Underweight
-1.94393,58.4467,Normal Weight
-1.94393,67.397,Normal Weight
+1.94393,13.695,Normal Weight
+1.94393,22.6453,Normal Weight
+1.94393,31.5957,Normal Weight
+1.94393,40.546,Normal Weight
+1.94393,49.4963,Overweight
+1.94393,58.4467,Overweight
+1.94393,67.397,Overweight
 1.94393,76.3473,Overweight
 1.94393,85.2977,Overweight
 1.94393,94.248,Overweight
 1.94393,103.198,Overweight
-1.94393,112.149,Obese
-1.94393,121.099,Obese
-1.94393,130.049,Obese
+1.94393,112.149,Overweight
+1.94393,121.099,Overweight
+1.94393,130.049,Overweight
 1.94393,139,Obese
 1.94393,147.95,Obese
 1.94393,156.9,Obese
@@ -718,20 +718,20 @@
 1.94393,255.354,Obese
 1.94393,264.304,Obese
 1.94393,273.255,Obese
-1.9663,13.695,Underweight
-1.9663,22.6453,Underweight
-1.9663,31.5957,Underweight
-1.9663,40.546,Underweight
-1.9663,49.4963,Underweight
-1.9663,58.4467,Normal Weight
-1.9663,67.397,Normal Weight
+1.9663,13.695,Normal Weight
+1.9663,22.6453,Normal Weight
+1.9663,31.5957,Normal Weight
+1.9663,40.546,Overweight
+1.9663,49.4963,Overweight
+1.9663,58.4467,Overweight
+1.9663,67.397,Overweight
 1.9663,76.3473,Overweight
 1.9663,85.2977,Overweight
 1.9663,94.248,Overweight
 1.9663,103.198,Overweight
-1.9663,112.149,Obese
-1.9663,121.099,Obese
-1.9663,130.049,Obese
+1.9663,112.149,Overweight
+1.9663,121.099,Overweight
+1.9663,130.049,Overweight
 1.9663,139,Obese
 1.9663,147.95,Obese
 1.9663,156.9,Obese
@@ -748,20 +748,20 @@
 1.9663,255.354,Obese
 1.9663,264.304,Obese
 1.9663,273.255,Obese
-1.98867,13.695,Underweight
-1.98867,22.6453,Underweight
-1.98867,31.5957,Underweight
-1.98867,40.546,Underweight
-1.98867,49.4963,Underweight
-1.98867,58.4467,Normal Weight
-1.98867,67.397,Normal Weight
+1.98867,13.695,Normal Weight
+1.98867,22.6453,Normal Weight
+1.98867,31.5957,Overweight
+1.98867,40.546,Overweight
+1.98867,49.4963,Overweight
+1.98867,58.4467,Overweight
+1.98867,67.397,Overweight
 1.98867,76.3473,Overweight
 1.98867,85.2977,Overweight
 1.98867,94.248,Overweight
 1.98867,103.198,Overweight
-1.98867,112.149,Obese
-1.98867,121.099,Obese
-1.98867,130.049,Obese
+1.98867,112.149,Overweight
+1.98867,121.099,Overweight
+1.98867,130.049,Overweight
 1.98867,139,Obese
 1.98867,147.95,Obese
 1.98867,156.9,Obese
@@ -778,21 +778,21 @@
 1.98867,255.354,Obese
 1.98867,264.304,Obese
 1.98867,273.255,Obese
-2.01103,13.695,Underweight
-2.01103,22.6453,Underweight
-2.01103,31.5957,Underweight
-2.01103,40.546,Underweight
-2.01103,49.4963,Underweight
-2.01103,58.4467,Normal Weight
-2.01103,67.397,Normal Weight
+2.01103,13.695,Normal Weight
+2.01103,22.6453,Overweight
+2.01103,31.5957,Overweight
+2.01103,40.546,Overweight
+2.01103,49.4963,Overweight
+2.01103,58.4467,Overweight
+2.01103,67.397,Overweight
 2.01103,76.3473,Overweight
 2.01103,85.2977,Overweight
 2.01103,94.248,Overweight
 2.01103,103.198,Overweight
-2.01103,112.149,Obese
-2.01103,121.099,Obese
-2.01103,130.049,Obese
-2.01103,139,Obese
+2.01103,112.149,Overweight
+2.01103,121.099,Overweight
+2.01103,130.049,Overweight
+2.01103,139,Overweight
 2.01103,147.95,Obese
 2.01103,156.9,Obese
 2.01103,165.851,Obese
@@ -808,21 +808,21 @@
 2.01103,255.354,Obese
 2.01103,264.304,Obese
 2.01103,273.255,Obese
-2.0334,13.695,Underweight
-2.0334,22.6453,Underweight
-2.0334,31.5957,Underweight
-2.0334,40.546,Underweight
-2.0334,49.4963,Underweight
-2.0334,58.4467,Normal Weight
-2.0334,67.397,Normal Weight
+2.0334,13.695,Overweight
+2.0334,22.6453,Overweight
+2.0334,31.5957,Overweight
+2.0334,40.546,Overweight
+2.0334,49.4963,Overweight
+2.0334,58.4467,Overweight
+2.0334,67.397,Overweight
 2.0334,76.3473,Overweight
 2.0334,85.2977,Overweight
 2.0334,94.248,Overweight
 2.0334,103.198,Overweight
-2.0334,112.149,Obese
-2.0334,121.099,Obese
-2.0334,130.049,Obese
-2.0334,139,Obese
+2.0334,112.149,Overweight
+2.0334,121.099,Overweight
+2.0334,130.049,Overweight
+2.0334,139,Overweight
 2.0334,147.95,Obese
 2.0334,156.9,Obese
 2.0334,165.851,Obese
@@ -838,21 +838,21 @@
 2.0334,255.354,Obese
 2.0334,264.304,Obese
 2.0334,273.255,Obese
-2.05577,13.695,Underweight
-2.05577,22.6453,Underweight
-2.05577,31.5957,Underweight
-2.05577,40.546,Underweight
-2.05577,49.4963,Underweight
-2.05577,58.4467,Normal Weight
-2.05577,67.397,Normal Weight
+2.05577,13.695,Overweight
+2.05577,22.6453,Overweight
+2.05577,31.5957,Overweight
+2.05577,40.546,Overweight
+2.05577,49.4963,Overweight
+2.05577,58.4467,Overweight
+2.05577,67.397,Overweight
 2.05577,76.3473,Overweight
 2.05577,85.2977,Overweight
 2.05577,94.248,Overweight
 2.05577,103.198,Overweight
-2.05577,112.149,Obese
-2.05577,121.099,Obese
-2.05577,130.049,Obese
-2.05577,139,Obese
+2.05577,112.149,Overweight
+2.05577,121.099,Overweight
+2.05577,130.049,Overweight
+2.05577,139,Overweight
 2.05577,147.95,Obese
 2.05577,156.9,Obese
 2.05577,165.851,Obese
@@ -868,21 +868,21 @@
 2.05577,255.354,Obese
 2.05577,264.304,Obese
 2.05577,273.255,Obese
-2.07813,13.695,Underweight
-2.07813,22.6453,Underweight
-2.07813,31.5957,Underweight
-2.07813,40.546,Underweight
-2.07813,49.4963,Underweight
-2.07813,58.4467,Normal Weight
-2.07813,67.397,Normal Weight
+2.07813,13.695,Overweight
+2.07813,22.6453,Overweight
+2.07813,31.5957,Overweight
+2.07813,40.546,Overweight
+2.07813,49.4963,Overweight
+2.07813,58.4467,Overweight
+2.07813,67.397,Overweight
 2.07813,76.3473,Overweight
 2.07813,85.2977,Overweight
 2.07813,94.248,Overweight
 2.07813,103.198,Overweight
-2.07813,112.149,Obese
-2.07813,121.099,Obese
-2.07813,130.049,Obese
-2.07813,139,Obese
+2.07813,112.149,Overweight
+2.07813,121.099,Overweight
+2.07813,130.049,Overweight
+2.07813,139,Overweight
 2.07813,147.95,Obese
 2.07813,156.9,Obese
 2.07813,165.851,Obese

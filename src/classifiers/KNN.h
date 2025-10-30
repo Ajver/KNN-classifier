@@ -15,11 +15,14 @@ namespace cll {
         void fit(Datasheet&) override;
 
         std::vector<ClassificationResult> predict(std::vector<std::vector<float>>&) const override;
-        ClassificationResult predict(std::vector<float>&) const override;
+        ClassificationResult predict(std::vector<float>) const override;
     private:
         size_t K;
         std::vector<std::vector<float>> X;
         std::vector<int> Y;
+
+        std::vector<float> min_values;
+        std::vector<float> max_values;
 
         AbstractDistanceMeasurement* distance_measurement;
     };

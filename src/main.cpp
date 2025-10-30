@@ -94,7 +94,7 @@ int main() {
         k_vs_accuracy.Y.push_back(0);
     }
 
-    KNN model(1);
+    KNN model(9);
     model.fit(train_data);
     create_classification_map(bmi_data, model);
 
