@@ -2,14 +2,17 @@
 #define KNN_KNN_H
 
 #include "AbstractClassifier.h"
+#include "tools/AbstractDataScaling.h"
 #include "tools/AbstractDistanceMeasurement.h"
+#include "tools/DataScalingMethods.h"
 
 
 namespace cll {
 
     class KNN : public AbstractClassifier {
     public:
-        KNN(size_t);
+        KNN(size_t, DataScalingMethods=NORMALIZE);
+        ~KNN();
 
         void fit(std::vector<std::vector<float>>&, std::vector<int>&) override;
         void fit(Datasheet&) override;
@@ -21,9 +24,7 @@ namespace cll {
         std::vector<std::vector<float>> X;
         std::vector<int> Y;
 
-        std::vector<float> min_values;
-        std::vector<float> max_values;
-
+        AbstractDataScaling *data_scaling;
         AbstractDistanceMeasurement* distance_measurement;
     };
 

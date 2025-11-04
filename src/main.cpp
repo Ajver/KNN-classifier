@@ -69,10 +69,6 @@ int main() {
     Datasheet train_data = train_test_split.first;
     Datasheet test_data = train_test_split.second;
 
-    cout << "Full data: " << bmi_data.X.size() << " " << bmi_data.Y.size() << endl;
-    cout << "Train data: " << train_data.X.size() << " " << train_data.Y.size() << endl;
-    cout << "Test data: " << test_data.X.size() << " " << test_data.Y.size() << endl;
-
     Datasheet k_vs_accuracy;
 
     for (int k=1; k<=30; k++) {
@@ -94,7 +90,7 @@ int main() {
         k_vs_accuracy.Y.push_back(0);
     }
 
-    KNN model(9);
+    KNN model(1);
     model.fit(train_data);
     create_classification_map(bmi_data, model);
 

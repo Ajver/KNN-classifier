@@ -4,16 +4,30 @@
 #include <iostream>
 #include <map>
 
+#include "tools/DataNormalization.h"
 #include "tools/EulerDistanceMeasurement.h"
 
 
 namespace cll {
 
-    KNN::KNN(size_t newK) {
+    KNN::KNN(size_t newK, DataScalingMethods scaling_method) {
         assert(newK > 0);
 
         K = newK;
+
+        switch (scaling_method) {
+            case NORMALIZE:
+                data_scaling = new DataNormalization;
+            case STANDARDIZE:
+                break;
+        }
+
         distance_measurement = new EulerDistanceMeasurement;
+    }
+
+    KNN::~KNN() {
+        delete data_scaling;
+        delete distance_measurement;
     }
 
     void KNN::fit(std::vector<std::vector<float>> &newX, std::vector<int> &newY) {
@@ -25,31 +39,10 @@ namespace cll {
             assert(newX[i].size() == p);
         }
 
-        X = newX;
+        data_scaling->fit(newX);
+
+        X = data_scaling->scale(newX);
         Y = newY;
-
-        // Data normalization
-        min_values = newX[0];
-        max_values = newX[0];
-
-        for (auto data_row : newX) {
-            for (int i = 0; i < data_row.size(); i++) {
-                if (data_row[i] < min_values[i]) {
-                    min_values[i] = data_row[i];
-                }
-                if (data_row[i] > max_values[i]) {
-                    max_values[i] = data_row[i];
-                }
-            }
-        }
-
-        for (auto & data_row : X) {
-            for (int feature_idx = 0; feature_idx < data_row.size(); feature_idx++) {
-                const float min_val = min_values[feature_idx];
-                const float max_val = max_values[feature_idx];
-                data_row[feature_idx] = (data_row[feature_idx] - min_val) / (max_val - min_val);
-            }
-        }
     }
 
     void KNN::fit(Datasheet &ds) {
@@ -73,12 +66,7 @@ namespace cll {
     };
 
     ClassificationResult KNN::predict(std::vector<float> pred_row) const {
-        // Normalization
-        for (int feature_idx = 0; feature_idx < pred_row.size(); feature_idx++) {
-            const float min_val = min_values[feature_idx];
-            const float max_val = max_values[feature_idx];
-            pred_row[feature_idx] = (pred_row[feature_idx] - min_val) / (max_val - min_val);
-        }
+        pred_row = data_scaling->scale(pred_row);
 
         Neighbor* neighbors = new Neighbor[K];
         float max_dist = -1;
