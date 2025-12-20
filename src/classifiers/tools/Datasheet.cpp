@@ -10,7 +10,7 @@
 
 
 namespace cll {
-    Datasheet Datasheet::load_from_csv(std::string filepath, int classes_column_idx, int skip_rows) {
+    Datasheet Datasheet::load_from_csv(const std::string& filepath, int classes_column_idx, int skip_rows) {
         std::vector<std::vector<float>> X;
         std::vector<int> Y;
         std::map<std::string, int> class_to_int{};
@@ -79,7 +79,7 @@ namespace cll {
         return std::pair(train_ds, test_ds);
     }
 
-    void Datasheet::save_as_csv(std::string filepath, std::vector<std::string> header_row) {
+    void Datasheet::save_as_csv(const std::string& filepath, std::vector<std::string> header_row) {
         std::ofstream file(filepath);
 
         if (!file.is_open()) {

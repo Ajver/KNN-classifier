@@ -9,6 +9,8 @@
 namespace cll {
     class AbstractClassifier {
     public:
+        virtual ~AbstractClassifier() = default;
+
         virtual void fit(std::vector<std::vector<float>>&, std::vector<int>&) = 0;
         virtual void fit(Datasheet&) = 0;
 

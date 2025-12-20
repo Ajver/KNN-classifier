@@ -10,6 +10,8 @@
 namespace cll {
     class AbstractDataScaling {
     public:
+        virtual ~AbstractDataScaling() = default;
+
         virtual void fit(const std::vector<std::vector<float>>&) = 0;
 
         virtual std::vector<std::vector<float>> scale(const std::vector<std::vector<float>>&) const = 0;

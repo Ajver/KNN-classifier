@@ -13,11 +13,11 @@ namespace cll {
         std::map<std::string, int> class_to_int;
         std::map<int, std::string> int_to_class;
 
-        static Datasheet load_from_csv(std::string, int, int=0);
+        static Datasheet load_from_csv(const std::string&, int, int=0);
 
         static std::pair<Datasheet, Datasheet> train_test_split(Datasheet&, float);
 
-        void save_as_csv(std::string, std::vector<std::string> = {});
+        void save_as_csv(const std::string&, std::vector<std::string> = {});
     };
 } // cll
 
