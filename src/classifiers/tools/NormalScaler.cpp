@@ -1,10 +1,10 @@
-#include "DataNormalization.h"
+#include "NormalScaler.h"
 
 #include <iostream>
 
 namespace cll {
 
-    void DataNormalization::fit(const std::vector<std::vector<float>> &X) {
+    void NormalScaler::fit(const std::vector<std::vector<float>> &X) {
         min_values = X[0];
         max_values = X[0];
 
@@ -32,7 +32,7 @@ namespace cll {
         std::cout << std::endl;
     }
 
-    std::vector<std::vector<float>> DataNormalization::scale(const std::vector<std::vector<float>> &original_rows) const {
+    std::vector<std::vector<float>> NormalScaler::scale(const std::vector<std::vector<float>> &original_rows) const {
         std::vector<std::vector<float>> normalized_rows(original_rows.size());
 
         for (int i = 0; i < original_rows.size(); i++) {
@@ -42,7 +42,7 @@ namespace cll {
         return normalized_rows;
     }
 
-    std::vector<float> DataNormalization::scale(const std::vector<float> &row) const {
+    std::vector<float> NormalScaler::scale(const std::vector<float> &row) const {
         std::vector<float> normalized_row(row.size());
 
         for (int feature_idx = 0; feature_idx < row.size(); feature_idx++) {

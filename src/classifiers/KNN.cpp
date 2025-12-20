@@ -4,7 +4,7 @@
 #include <iostream>
 #include <map>
 
-#include "tools/DataNormalization.h"
+#include "tools/NormalScaler.h"
 #include "tools/EulerDistanceMeasurement.h"
 
 
@@ -16,8 +16,10 @@ namespace cll {
         K = newK;
 
         switch (scaling_method) {
+            case NONE:
+                break;
             case NORMALIZE:
-                data_scaling = new DataNormalization;
+                data_scaling = new NormalScaler;
             case STANDARDIZE:
                 break;
         }

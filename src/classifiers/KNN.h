@@ -2,7 +2,7 @@
 #define KNN_KNN_H
 
 #include "AbstractClassifier.h"
-#include "tools/AbstractDataScaling.h"
+#include "tools/AbstractDataScaler.h"
 #include "tools/AbstractDistanceMeasurement.h"
 #include "tools/DataScalingMethods.h"
 
@@ -24,7 +24,7 @@ namespace cll {
         std::vector<std::vector<float>> X;
         std::vector<int> Y;
 
-        AbstractDataScaling *data_scaling;
+        AbstractDataScaler *data_scaling;
         AbstractDistanceMeasurement* distance_measurement;
     };
 

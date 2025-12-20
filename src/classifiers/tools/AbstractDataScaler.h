@@ -8,9 +8,9 @@
 #include <vector>
 
 namespace cll {
-    class AbstractDataScaling {
+    class AbstractDataScaler {
     public:
-        virtual ~AbstractDataScaling() = default;
+        virtual ~AbstractDataScaler() = default;
 
         virtual void fit(const std::vector<std::vector<float>>&) = 0;
 

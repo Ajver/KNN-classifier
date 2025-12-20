@@ -1,12 +1,12 @@
 #ifndef KNN_CLASSIFIER_DATANORMALIZATION_H
 #define KNN_CLASSIFIER_DATANORMALIZATION_H
 
-#include "AbstractDataScaling.h"
+#include "AbstractDataScaler.h"
 
 
 namespace cll {
 
-    class DataNormalization : public AbstractDataScaling {
+    class NormalScaler : public AbstractDataScaler {
     public:
         void fit(const std::vector<std::vector<float>>&) override;
 
