@@ -70,7 +70,7 @@ void example_bmi() {
     Datasheet k_vs_accuracy;
 
     for (int k=1; k<=30; k++) {
-        KNN model(k);
+        KNN model(k, STANDARDIZE);
         model.fit(train_data);
 
         vector<ClassificationResult> pred = model.predict(test_data.X);

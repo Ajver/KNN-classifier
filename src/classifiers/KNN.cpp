@@ -5,6 +5,7 @@
 #include <map>
 
 #include "tools/NormalScaler.h"
+#include "tools/StandardScaler.h"
 #include "tools/EulerDistanceMeasurement.h"
 
 
@@ -20,7 +21,9 @@ namespace cll {
                 break;
             case NORMALIZE:
                 data_scaling = new NormalScaler;
+                break;
             case STANDARDIZE:
+                data_scaling = new StandardScaler;
                 break;
         }
 

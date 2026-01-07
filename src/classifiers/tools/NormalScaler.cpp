@@ -18,18 +18,6 @@ namespace cll {
                 }
             }
         }
-
-        std::cout << "FIT: ";
-        std::cout << std::endl;
-        for (int i = 0; i < min_values.size(); i++) {
-            std::cout << min_values[i] << " ";
-        }
-        std::cout << std::endl;
-        for (int i = 0; i < max_values.size(); i++) {
-            std::cout << max_values[i] << " ";
-        }
-        std::cout << std::endl;
-        std::cout << std::endl;
     }
 
     std::vector<std::vector<float>> NormalScaler::scale(const std::vector<std::vector<float>> &original_rows) const {
