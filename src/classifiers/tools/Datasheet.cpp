@@ -40,7 +40,7 @@ namespace cll {
                     row.push_back(stof(cell));
                 }else {
                     // It's the Y column!
-                    if (!class_to_int[cell]) {
+                    if (class_to_int.count(cell) == 0) {
                         // A new class!
                         class_to_int[cell] = class_to_int.size() + 1;
                         int_to_class[class_to_int[cell]] = cell;
