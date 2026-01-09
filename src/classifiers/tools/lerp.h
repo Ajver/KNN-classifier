@@ -6,7 +6,7 @@
 #define KNN_CLASSIFIER_LERP_H
 
 
-float lerp(float a, float b, float t) {
+inline float lerp(float a, float b, float t) {
     return a + (b - a) * t;
 }
 
