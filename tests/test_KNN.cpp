@@ -172,3 +172,38 @@ TEST(KNNTest, NormalScaler) {
 
     EXPECT_EQ(knn_normal_scaler.predict(A).predicted_class, 1);
 }
+
+TEST(KNNTest, StandardVsNormalScaler) {
+    /*
+       Feature 1 has a massive outlier at 1000.
+       Feature 2 has small, meaningful variation between 0 and 10.
+
+       NormalScaler will squish Feature 1 so much that
+       the difference between 0 and 10 becomes almost 0.
+
+       StandardScaler will handle the variance differently,
+       allowing the classifier to still see the gap between the classes.
+    */
+    std::vector<std::vector<float>> X {
+            {0,   0},
+            {0,   1},
+            {10,  0},
+            {10,  1},
+            {1000, 5}   // Outlier
+    };
+
+    std::vector<int> y {1, 1, 2, 2, 2};
+
+    cll::KNN knn_normal(1, cll::NORMALIZE);
+    cll::KNN knn_standard(1, cll::STANDARDIZE);
+
+    knn_normal.fit(X, y);
+    knn_standard.fit(X, y);
+
+    std::vector<float> A = {8.0, 0.5};
+
+    EXPECT_NE(knn_normal.predict(A).predicted_class, 1);
+
+    EXPECT_EQ(knn_standard.predict(A).predicted_class, 2);
+}
+
