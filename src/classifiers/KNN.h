@@ -11,7 +11,7 @@ namespace cll {
 
     class KNN : public AbstractClassifier {
     public:
-        KNN(size_t, DataScalingMethods=NORMALIZE);
+        KNN(size_t, DataScalingMethods=MINMAX);
         ~KNN();
 
         void fit(std::vector<std::vector<float>>&, std::vector<int>&) override;

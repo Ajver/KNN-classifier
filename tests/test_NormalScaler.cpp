@@ -1,10 +1,10 @@
 #include <gtest/gtest.h>
 
-#include "../src/classifiers/tools/NormalScaler.h"
+#include "../src/classifiers/tools/MinMaxScaler.h"
 
 
-TEST(NormalScaler, ScaleVector) {
-    cll::NormalScaler scaler;
+TEST(MinMaxScaler, ScaleVector) {
+    cll::MinMaxScaler scaler;
     std::vector<std::vector<float>> X{
         {0,   0,  -2,  2,  1,  1., },
         {5,  -10,  3,  3,  2,  2., },
@@ -22,8 +22,8 @@ TEST(NormalScaler, ScaleVector) {
 }
 
 
-TEST(NormalScaler, ScaleMultipleSamples) {
-    cll::NormalScaler scaler;
+TEST(MinMaxScaler, ScaleMultipleSamples) {
+    cll::MinMaxScaler scaler;
     std::vector<std::vector<float>> X{
         {0,   0,  -2,  2,  1,  1., },
         {5,  -10,  3,  3,  2,  2., },

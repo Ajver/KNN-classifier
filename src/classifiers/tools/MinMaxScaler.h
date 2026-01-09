@@ -6,7 +6,7 @@
 
 namespace cll {
 
-    class NormalScaler : public AbstractDataScaler {
+    class MinMaxScaler : public AbstractDataScaler {
     public:
         void fit(const std::vector<std::vector<float>>&) override;
 

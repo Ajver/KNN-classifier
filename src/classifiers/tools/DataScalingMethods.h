@@ -8,7 +8,7 @@
 namespace cll {
     enum DataScalingMethods {
         NONE,
-        NORMALIZE,
+        MINMAX,
         STANDARDIZE,
     };
 }

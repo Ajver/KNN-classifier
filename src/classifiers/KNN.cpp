@@ -4,7 +4,7 @@
 #include <iostream>
 #include <map>
 
-#include "tools/NormalScaler.h"
+#include "tools/MinMaxScaler.h"
 #include "tools/StandardScaler.h"
 #include "tools/EulerDistanceMeasurement.h"
 #include "tools/NoScaler.h"
@@ -21,8 +21,8 @@ namespace cll {
             case NONE:
                 data_scaling = new NoScaler;
                 break;
-            case NORMALIZE:
-                data_scaling = new NormalScaler;
+            case MINMAX:
+                data_scaling = new MinMaxScaler;
                 break;
             case STANDARDIZE:
                 data_scaling = new StandardScaler;
