@@ -2,7 +2,7 @@
 // Created by dom on 22/10/2025.
 //
 
-#include "../Datasheet.h"
+#include "Datasheet.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
