@@ -21,9 +21,9 @@ TEST_SRC = $(shell find $(TEST_DIR) -name '*.cpp')
 TEST_OBJ = $(patsubst $(TEST_DIR)/%.cpp, $(BUILD_DIR)/tests/%.o, $(TEST_SRC))
 
 ifeq ($(DEBUG), true)
-	C_FLAGS += -g0
+    C_FLAGS += -g3
 else
-	C_FLAGS += -g3
+    C_FLAGS += -g0
 endif
 
 all: $(APP_PATH)
