@@ -173,37 +173,33 @@ TEST(KNNTest, MinMaxScaler_vs_None) {
     EXPECT_EQ(knn_minmax_scaler.predict(A).predicted_class, 1);
 }
 
-TEST(KNNTest, MinMaxVsStandardScaler) {
-    /*
-       Feature 1 has a massive outlier at 1000.
-       Feature 2 has small, meaningful variation between 0 and 10.
-
-       MinMaxScaler will squish Feature 1 so much that
-       the difference between 0 and 10 becomes almost 0.
-
-       StandardScaler will handle the variance differently,
-       allowing the classifier to still see the gap between the classes.
-    */
+TEST(KNNTest, StandardScaler) {
     std::vector<std::vector<float>> X {
-            {0,   0},
-            {0,   1},
-            {10,  0},
-            {10,  1},
-            {1000, 5}   // Outlier
+        {0, 0, 0},
+        {0, 1, 0},
+        {0, 0, 2},
+        {-3, 0, 1},
     };
 
-    std::vector<int> y {1, 1, 2, 2, 2};
+    std::vector<int> y {
+        1,
+        2,
+        3,
+        4,
+    };
 
-    cll::KNN knn_minmax(1, cll::MINMAX);
-    cll::KNN knn_standard(1, cll::STANDARDIZE);
+    cll::KNN knn(1, cll::STANDARDIZE);
+    knn.fit(X, y);
 
-    knn_minmax.fit(X, y);
-    knn_standard.fit(X, y);
+    EXPECT_EQ(knn.predict({0, 0.4, 0}).predicted_class, 1);
+    EXPECT_EQ(knn.predict({0, 0.3, 0.4}).predicted_class, 1);
+    EXPECT_EQ(knn.predict({0, -1, 0}).predicted_class, 1);
 
-    std::vector<float> A = {8.0, 0.5};
+    EXPECT_EQ(knn.predict({0, 1.0, 0}).predicted_class, 2);
+    EXPECT_EQ(knn.predict({0, 0.6, 0}).predicted_class, 2);
 
-    EXPECT_NE(knn_minmax.predict(A).predicted_class, 1);
+    EXPECT_EQ(knn.predict({0, 0.5, 1.3}).predicted_class, 3);
 
-    EXPECT_EQ(knn_standard.predict(A).predicted_class, 2);
+    EXPECT_EQ(knn.predict({-2, 0.1, 0.1}).predicted_class, 4);
 }
 
