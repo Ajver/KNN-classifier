@@ -7,6 +7,7 @@
 #include "tools/NormalScaler.h"
 #include "tools/StandardScaler.h"
 #include "tools/EulerDistanceMeasurement.h"
+#include "tools/NoScaler.h"
 
 
 namespace cll {
@@ -18,6 +19,7 @@ namespace cll {
 
         switch (scaling_method) {
             case NONE:
+                data_scaling = new NoScaler;
                 break;
             case NORMALIZE:
                 data_scaling = new NormalScaler;
