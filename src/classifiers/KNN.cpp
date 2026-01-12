@@ -6,7 +6,7 @@
 
 #include "tools/MinMaxScaler.h"
 #include "tools/StandardScaler.h"
-#include "tools/EulerDistanceMeasurement.h"
+#include "tools/EulerDistanceSquaredMeasurement.h"
 #include "tools/NoScaler.h"
 
 
@@ -29,7 +29,7 @@ namespace cll {
                 break;
         }
 
-        distance_measurement = new EulerDistanceMeasurement;
+        distance_measurement = new EulerDistanceSquaredMeasurement;
     }
 
     KNN::~KNN() {

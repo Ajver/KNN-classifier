@@ -1,9 +1,9 @@
 #include <cassert>
-#include "EulerDistanceMeasurement.h"
+#include "EulerDistanceSquaredMeasurement.h"
 
 namespace cll {
 
-    float EulerDistanceMeasurement::calculate_distance(const std::vector<float> &a, const std::vector<float> &b) const {
+    float EulerDistanceSquaredMeasurement::calculate_distance(const std::vector<float> &a, const std::vector<float> &b) const {
         // Calculates distance squared (because we don't need to waste computation power on square-rooting it)
         // We only care about "closest" objects, don't need to know the exact distance
 

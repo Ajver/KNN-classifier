@@ -5,7 +5,7 @@
 
 
 namespace cll {
-    class EulerDistanceMeasurement : public AbstractDistanceMeasurement {
+    class EulerDistanceSquaredMeasurement : public AbstractDistanceMeasurement {
     public:
         float calculate_distance(const std::vector<float>&, const std::vector<float>&) const override;
     };
