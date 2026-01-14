@@ -62,6 +62,8 @@ void create_classification_map(Datasheet &data, KNN &model) {
 
 
 void example_bmi() {
+    cout << "\nBMI example:\n" << endl;
+
     Datasheet bmi_data = Datasheet::load_from_csv("data/bmi_simplified.csv", 2, 1);
     pair train_test_split = Datasheet::train_test_split(bmi_data, 0.8);
     Datasheet train_data = train_test_split.first;

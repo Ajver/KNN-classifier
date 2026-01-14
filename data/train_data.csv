@@ -1,136 +1,229 @@
 Height,Weight,BmiClass
+1.85,109.3,Obese
 1.71,79.02,Overweight
+1.55,74.7,Obese
 1.46,35.9,Underweight
+1.58,97.1,Obese
+1.71,79.32,Overweight
+1.7,73.32,Overweight
 1.72,85.32,Overweight
+1.83,104.7,Obese
+1.71,79.31,Overweight
 1.7,73.41,Overweight
 1.72,85.21,Overweight
+1.47,36,Underweight
 1.71,79.3,Overweight
-1.72,85.1,Overweight
+1.7,73.5,Overweight
 1.75,110,Obese
+1.58,79.7,Obese
+1.47,36,Underweight
 1.6,99.1,Obese
 1.71,79.29,Overweight
 1.72,84.99,Overweight
+1.47,36.1,Underweight
 1.8,98.5,Obese
-1.59,98,Obese
+1.72,79.28,Overweight
 1.71,73.68,Overweight
 1.73,84.88,Overweight
+1.72,95,Obese
 1.7,160,Obese
 1.48,36.1,Underweight
-1.72,79.32,Overweight
+1.71,73.82,Overweight
+1.61,78.1,Obese
+1.48,36.2,Underweight
+1.61,100.3,Obese
 1.72,79.31,Overweight
+1.62,76.3,Overweight
+1.49,36.2,Underweight
+1.62,101.7,Obese
+1.72,79.3,Overweight
 1.71,74,Overweight
+1.6,73,Overweight
+1.49,36.3,Underweight
 1.64,105.1,Obese
 1.72,79.29,Overweight
 1.71,74.09,Overweight
+1.63,70.2,Overweight
+1.5,36.4,Underweight
+1.75,91.2,Overweight
 1.73,79.28,Overweight
+1.72,74.18,Overweight
+1.74,84.38,Overweight
+1.62,46,Underweight
 1.63,72.5,Overweight
+1.5,36.5,Underweight
 1.84,106.9,Obese
+1.66,110.5,Obese
 1.73,79.02,Overweight
 1.72,74.02,Overweight
+1.74,84.02,Overweight
+1.6,75,Overweight
+1.6,44,Underweight
+1.64,77.9,Overweight
+1.51,36.6,Underweight
+1.63,103.2,Obese
+1.74,79.01,Overweight
+1.75,83.91,Overweight
+1.63,100,Obese
 1.58,42,Underweight
 1.68,79.5,Overweight
+1.51,36.7,Underweight
 1.74,79,Overweight
 1.73,74.2,Normal Weight
+1.75,83.8,Overweight
+1.55,40,Underweight
+1.65,75.3,Overweight
+1.52,36.8,Underweight
 1.82,99.7,Obese
+1.75,112.2,Obese
+1.74,78.99,Overweight
 1.73,74.29,Normal Weight
 1.75,83.69,Overweight
 1.86,70,Normal Weight
 1.73,77,Overweight
 1.52,36.9,Underweight
 1.74,111.2,Obese
+1.74,78.98,Overweight
 1.73,74.38,Normal Weight
+1.75,83.58,Overweight
 1.68,140,Obese
+1.84,68,Normal Weight
+1.72,78.3,Overweight
+1.53,37,Underweight
+1.78,90.7,Overweight
 1.8,116,Obese
 1.74,78.62,Overweight
-1.73,74.12,Normal Weight
+1.75,83.12,Overweight
+1.82,66,Normal Weight
+1.53,37.2,Underweight
+1.8,96.1,Overweight
 1.74,78.61,Overweight
+1.73,74.21,Normal Weight
+1.75,83.01,Overweight
 1.8,64,Normal Weight
+1.69,72.2,Overweight
+1.54,37.4,Underweight
 1.78,114.5,Obese
+1.74,78.6,Overweight
 1.73,74.3,Normal Weight
-1.75,112,Obese
+1.75,82.9,Overweight
+1.65,90,Obese
+1.78,62,Normal Weight
+1.75,76.5,Normal Weight
+1.54,37.5,Underweight
+1.79,93.8,Overweight
 1.73,74.39,Normal Weight
+1.75,82.79,Overweight
+1.76,60,Normal Weight
+1.72,78.6,Overweight
 1.55,37.7,Underweight
+1.73,110.1,Obese
+1.75,82.68,Overweight
 1.729,74.48,Normal Weight
 1.7,105,Obese
+1.74,58,Normal Weight
 1.7,75,Overweight
-1.56,38,Underweight
-1.729,73.42,Normal Weight
-1.72,56,Normal Weight
+1.68,108.6,Obese
+1.74,77.42,Overweight
+1.75,81.42,Overweight
 1.66,71.7,Overweight
+1.56,38.3,Underweight
+1.78,90.2,Overweight
 1.74,111.7,Obese
-1.68,80,Overweight
+1.74,77.41,Overweight
+1.73,73.51,Normal Weight
+1.75,81.31,Overweight
+1.729,73.51,Normal Weight
 1.7,54,Normal Weight
+1.71,74.8,Overweight
+1.78,118.9,Obese
+1.74,77.4,Overweight
 1.73,73.6,Normal Weight
-1.729,73.6,Normal Weight
+1.7298,80.4,Overweight
 1.68,52,Underweight
+1.67,71.1,Overweight
+1.58,39.1,Underweight
+1.76,113.3,Obese
+1.74,77.39,Overweight
+1.73,73.69,Normal Weight
 1.75,81.09,Overweight
 1.729,73.69,Normal Weight
+1.7298,80.39,Overweight
 1.66,50,Underweight
-1.69,62,Normal Weight
-1.68,68.4,Normal Weight
+1.59,39.6,Underweight
+1.75,112.2,Obese
 1.74,77.38,Overweight
+1.73,73.78,Normal Weight
+1.75,80.98,Overweight
 1.729,73.78,Normal Weight
 1.7298,80.38,Overweight
-1.71,65,Normal Weight
+1.7,85,Overweight
+1.64,48,Underweight
+1.72,67,Normal Weight
+1.65,65.2,Normal Weight
+1.6,40.1,Underweight
+1.75,85.6,Overweight
 1.7,98.5,Obese
 1.74,76.22,Overweight
 1.73,72.72,Normal Weight
+1.75,79.72,Overweight
+1.7298,79.22,Overweight
+1.62,46,Underweight
 1.73,67,Normal Weight
+1.71,66,Normal Weight
 1.7,65,Normal Weight
 1.73,70.9,Normal Weight
-1.74,76.21,Overweight
-1.73,72.81,Normal Weight
-1.729,72.81,Normal Weight
+1.61,40.6,Underweight
+1.77,86.9,Overweight
+1.81,120.9,Obese
 1.7298,79.21,Overweight
 1.6,44,Underweight
+1.69,64,Normal Weight
 1.73,66,Normal Weight
 1.7,65,Normal Weight
-1.62,41.2,Underweight
+1.77,73.6,Normal Weight
+1.76,84.3,Overweight
 1.74,76.2,Overweight
 1.73,72.9,Normal Weight
 1.75,79.5,Overweight
+1.729,72.9,Normal Weight
 1.6,120,Obese
+1.58,42,Underweight
 1.65,60,Normal Weight
+1.68,65,Normal Weight
 1.7,65,Normal Weight
 1.68,64,Normal Weight
-1.65,61,Normal Weight
 1.69,67.8,Normal Weight
 1.72,81.9,Overweight
-1.73,72.99,Normal Weight
+1.77,115.7,Obese
 1.75,79.39,Overweight
-1.729,72.99,Normal Weight
-1.7298,76.07,Overweight
+1.55,40,Underweight
 1.68,62,Normal Weight
 1.74,67,Normal Weight
+1.71,66,Normal Weight
 1.68,63,Normal Weight
-1.7,74.1,Overweight
+1.63,60,Normal Weight
+1.65,43,Underweight
 1.74,82.5,Overweight
 1.85,132,Obese
 1.74,76.18,Overweight
-1.73,73.08,Normal Weight
-1.75,79.28,Overweight
-1.729,73.08,Normal Weight
 1.7298,76.06,Overweight
-1.68,95,Obese
-1.7,155,Obese
-1.8,175,Obese
 2.07,270,Obese
 1.7,66,Normal Weight
 1.72,66,Normal Weight
-1.69,64,Normal Weight
 1.865,93.4,Overweight
 1.87,92.3,Overweight
+1.68,68.7,Normal Weight
 1.67,44.5,Underweight
 1.74,79.9,Overweight
-1.72,106.7,Obese
+1.79,74.72,Normal Weight
 1.78,71.72,Normal Weight
-1.8,77.72,Normal Weight
+1.779,71.72,Normal Weight
 1.7798,74.6,Normal Weight
 1.65,150,Obese
 1.75,170,Obese
 2.05,260,Obese
 1.84,68,Normal Weight
-1.63,58,Normal Weight
 1.7,64,Normal Weight
 1.68,63,Normal Weight
 1.66,62,Normal Weight
@@ -142,40 +235,28 @@ Height,Weight,BmiClass
 1.76,113.8,Obese
 1.78,74.71,Normal Weight
 1.77,71.81,Normal Weight
-1.79,77.61,Normal Weight
-1.769,71.81,Normal Weight
 1.7698,74.59,Normal Weight
-1.75,75,Normal Weight
 1.67,145,Obese
 1.72,165,Obese
-2.02,250,Obese
-1.82,66,Normal Weight
 1.78,75,Normal Weight
 1.76,69,Normal Weight
 1.66,62,Normal Weight
 1.67,63,Normal Weight
 1.63,60,Normal Weight
 1.832,88.3,Overweight
-1.838,87.2,Overweight
 1.78,72.1,Normal Weight
 1.68,46.2,Underweight
 1.73,78.6,Overweight
-1.82,126.8,Obese
 1.77,74.7,Normal Weight
 1.76,71.9,Normal Weight
 1.78,77.5,Normal Weight
 1.759,71.9,Normal Weight
-1.7598,74.58,Normal Weight
 1.69,140,Obese
 1.77,160,Obese
 2,240,Obese
 1.8,64,Normal Weight
-1.67,63,Normal Weight
-1.75,68,Normal Weight
 1.66,62,Normal Weight
 1.62,59,Normal Weight
-1.82,85.8,Overweight
-1.825,84.6,Overweight
 1.79,76.8,Normal Weight
 1.69,47.5,Underweight
 1.71,76.3,Overweight
@@ -183,8 +264,6 @@ Height,Weight,BmiClass
 1.76,74.69,Normal Weight
 1.75,71.99,Normal Weight
 1.77,77.39,Normal Weight
-1.749,71.99,Normal Weight
-1.7498,74.57,Normal Weight
 1.64,135,Obese
 1.79,155,Obese
 1.97,230,Obese
@@ -197,11 +276,9 @@ Height,Weight,BmiClass
 1.799,82.1,Overweight
 1.74,71.9,Normal Weight
 1.71,48.9,Underweight
-1.76,80.2,Overweight
 1.86,134.1,Obese
 1.75,74.68,Normal Weight
 1.74,72.08,Normal Weight
-1.76,77.28,Normal Weight
 1.739,72.08,Normal Weight
 1.7398,74.56,Normal Weight
 1.7,130,Obese
@@ -210,12 +287,9 @@ Height,Weight,BmiClass
 1.76,60,Normal Weight
 1.72,68,Normal Weight
 1.62,60,Normal Weight
-1.6,58,Normal Weight
 1.77,78,Normal Weight
 1.77,77,Normal Weight
-1.76,76,Normal Weight
 1.76,75,Normal Weight
-1.786,80.7,Overweight
 1.781,79.5,Overweight
 1.75,70.5,Normal Weight
 1.73,49.7,Underweight
@@ -225,7 +299,6 @@ Height,Weight,BmiClass
 1.76,69.32,Normal Weight
 1.78,74.32,Normal Weight
 1.759,69.32,Normal Weight
-1.781,74.32,Normal Weight
 1.62,125,Obese
 1.76,145,Obese
 1.92,210,Obese
@@ -242,11 +315,9 @@ Height,Weight,BmiClass
 1.72,74.8,Overweight
 1.83,128.7,Obese
 1.76,71.81,Normal Weight
-1.75,69.41,Normal Weight
 1.77,74.21,Normal Weight
 1.749,69.41,Normal Weight
 1.771,74.21,Normal Weight
-1.68,120,Obese
 1.71,140,Obese
 1.9,200,Obese
 1.72,56,Normal Weight
@@ -265,9 +336,7 @@ Height,Weight,BmiClass
 1.761,74.1,Normal Weight
 1.762,71.901,Normal Weight
 1.738,71.699,Normal Weight
-1.63,95,Obese
 1.66,115,Obese
-1.69,135,Obese
 1.87,190,Obese
 1.7,54,Normal Weight
 1.74,72,Normal Weight
@@ -277,15 +346,11 @@ Height,Weight,BmiClass
 1.72,69,Normal Weight
 1.709,73,Normal Weight
 1.702,71.9,Normal Weight
-1.8,80.2,Normal Weight
 1.7,54.8,Normal Weight
-1.68,72,Overweight
-1.79,120.3,Obese
 1.74,71.79,Normal Weight
 1.73,69.59,Normal Weight
 1.75,73.99,Normal Weight
 1.729,69.59,Normal Weight
-1.751,73.99,Normal Weight
 1.752,71.891,Normal Weight
 1.728,71.689,Normal Weight
 1.75,110,Obese
@@ -293,64 +358,46 @@ Height,Weight,BmiClass
 1.73,130,Obese
 1.85,180,Obese
 1.68,52,Underweight
-1.73,70,Normal Weight
 1.75,71,Normal Weight
 1.73,69,Normal Weight
-1.72,68,Normal Weight
 1.71,67,Normal Weight
 1.721,70.5,Normal Weight
 1.715,69.3,Normal Weight
 1.75,57.3,Normal Weight
-1.7,43.4,Underweight
 1.55,37.6,Underweight
-1.69,73.5,Overweight
 1.73,71.78,Normal Weight
-1.72,69.68,Normal Weight
 1.74,73.88,Normal Weight
 1.719,69.68,Normal Weight
 1.741,73.88,Normal Weight
-1.742,71.881,Normal Weight
 1.718,71.679,Normal Weight
-1.72,105,Obese
 1.65,105,Obese
 1.78,125,Obese
 1.82,170,Obese
 1.66,50,Underweight
 1.72,68,Normal Weight
-1.73,69,Normal Weight
 1.72,67,Normal Weight
 1.7,66,Normal Weight
-1.69,65,Normal Weight
 1.705,68.9,Normal Weight
 1.697,66.8,Normal Weight
 1.61,44.6,Underweight
 1.57,41.1,Underweight
 1.56,39.4,Underweight
-1.54,34.9,Underweight
 1.51,31.7,Underweight
 1.49,29.4,Underweight
 1.47,27.6,Underweight
 1.46,25.9,Underweight
 1.68,72.9,Overweight
 1.751,70,Normal Weight
-1.741,68,Normal Weight
 1.761,72,Normal Weight
-1.74,68,Normal Weight
 1.762,72,Normal Weight
 1.763,70.101,Normal Weight
 1.739,69.899,Normal Weight
 1.68,98,Obese
-1.69,98,Obese
-1.75,120,Obese
-1.8,160,Obese
 1.64,48,Underweight
 1.71,66,Normal Weight
 1.72,67,Normal Weight
-1.7,65,Normal Weight
 1.69,64,Normal Weight
 1.68,63,Normal Weight
-1.673,65.4,Normal Weight
-1.661,64.2,Normal Weight
 1.58,41.5,Underweight
 1.6,42.3,Underweight
 1.59,41.2,Underweight
@@ -366,15 +413,11 @@ Height,Weight,BmiClass
 1.739,67.3,Normal Weight
 1.761,71.1,Normal Weight
 1.762,69.301,Normal Weight
-1.738,69.099,Normal Weight
 1.59,69.32,Overweight
-1.7,100,Obese
 1.67,100,Obese
 1.72,115,Obese
-1.78,150,Obese
 1.62,46,Underweight
 1.7,64,Normal Weight
-1.71,65,Normal Weight
 1.69,63,Normal Weight
 1.68,62,Normal Weight
 1.67,61,Normal Weight
@@ -385,11 +428,8 @@ Height,Weight,BmiClass
 1.61,41.7,Underweight
 1.57,36.3,Underweight
 1.52,32.9,Underweight
-1.5,30.3,Underweight
-1.48,28.3,Underweight
 1.46,26.6,Underweight
 1.7,72.9,Overweight
-1.65,95,Obese
 1.63,95,Obese
 1.68,110,Obese
 1.75,140,Obese
@@ -412,36 +452,24 @@ Height,Weight,BmiClass
 1.58,90,Obese
 1.7,105,Obese
 1.72,130,Obese
-1.58,42,Underweight
-1.67,58,Normal Weight
 1.68,59,Normal Weight
-1.66,57,Normal Weight
 1.65,56,Normal Weight
-1.64,55,Normal Weight
 1.652,58.7,Normal Weight
 1.642,56.6,Normal Weight
 1.59,42.8,Underweight
 1.58,40.1,Underweight
 1.55,35.7,Underweight
 1.52,32.2,Underweight
-1.49,29.9,Underweight
 1.47,28,Underweight
 1.46,26.3,Underweight
-1.55,85,Obese
-1.62,85,Obese
-1.65,100,Obese
 1.7,120,Obese
 1.55,40,Underweight
-1.65,55,Normal Weight
 1.66,56,Normal Weight
 1.64,54,Normal Weight
 1.63,53,Normal Weight
 1.62,52,Normal Weight
-1.605,55.2,Normal Weight
 1.597,54,Normal Weight
 1.78,115,Obese
-1.76,130.5,Obese
-1.73,146.2,Obese
 1.81,128.7,Obese
 1.75,141.5,Obese
 1.7,155.8,Obese
@@ -451,7 +479,6 @@ Height,Weight,BmiClass
 1.8,150,Obese
 1.74,165.3,Obese
 1.66,182.7,Obese
-1.77,124.5,Obese
 1.76,138.9,Obese
 1.72,154,Obese
 1.83,136.2,Obese
@@ -459,18 +486,13 @@ Height,Weight,BmiClass
 1.67,168.9,Obese
 1.79,132.1,Obese
 1.77,146.3,Obese
-1.65,162.5,Obese
 1.82,132,Obese
 1.76,144,Obese
-1.71,158.7,Obese
-1.78,127.8,Obese
-1.75,151,Obese
 1.65,60.5,Normal Weight
 1.75,70.2,Normal Weight
 1.8,76.8,Normal Weight
 1.68,63.5,Normal Weight
 1.7,72.9,Overweight
-1.62,68.7,Overweight
 1.7,67.3,Normal Weight
 1.78,74.6,Normal Weight
 1.75,71.8,Normal Weight
@@ -483,11 +505,8 @@ Height,Weight,BmiClass
 1.76,72,Normal Weight
 1.71,70.2,Normal Weight
 1.64,67.3,Overweight
-1.73,68.5,Normal Weight
 1.81,78.4,Normal Weight
-1.67,68.9,Normal Weight
 1.63,67,Overweight
-1.71,67,Normal Weight
 1.77,73.5,Normal Weight
 1.74,70.8,Normal Weight
 1.68,69.2,Normal Weight
@@ -497,28 +516,20 @@ Height,Weight,BmiClass
 1.65,66.2,Normal Weight
 1.6,55,Normal Weight
 1.72,68.5,Normal Weight
-1.76,73.2,Normal Weight
 1.66,63.7,Normal Weight
-1.68,62.8,Normal Weight
 1.79,71.4,Normal Weight
 1.73,70,Normal Weight
 1.65,63.3,Normal Weight
-1.66,59.5,Normal Weight
 1.76,68,Normal Weight
 1.69,67.2,Normal Weight
 1.64,62.7,Normal Weight
 1.72,65.7,Normal Weight
-1.78,70.5,Normal Weight
 1.7,66.9,Normal Weight
 1.69,64.3,Normal Weight
 1.75,69.8,Normal Weight
 1.68,63.8,Normal Weight
 1.7,63.5,Normal Weight
-1.77,70.3,Normal Weight
-1.65,63.1,Normal Weight
-1.71,66.7,Normal Weight
 1.75,70.1,Normal Weight
-1.67,63.5,Normal Weight
 1.74,68.2,Normal Weight
 1.78,71,Normal Weight
 1.62,50,Normal Weight
@@ -526,17 +537,12 @@ Height,Weight,BmiClass
 1.7,57.8,Normal Weight
 1.73,60.2,Normal Weight
 1.63,51.2,Normal Weight
-1.68,56,Normal Weight
 1.71,58.1,Normal Weight
 1.74,61,Normal Weight
-1.64,52.5,Normal Weight
-1.69,56.7,Normal Weight
 1.72,59,Normal Weight
 1.75,62.3,Normal Weight
-1.65,53.8,Normal Weight
 1.7,57.3,Normal Weight
 1.73,59.9,Normal Weight
-1.76,63.6,Normal Weight
 1.66,55,Normal Weight
 1.71,58.5,Normal Weight
 1.74,60.7,Normal Weight
@@ -552,15 +558,12 @@ Height,Weight,BmiClass
 1.77,63.4,Normal Weight
 1.7,60,Normal Weight
 1.75,61.8,Normal Weight
-1.78,64.8,Normal Weight
 1.71,61.2,Normal Weight
 1.76,62.4,Normal Weight
 1.79,65.7,Normal Weight
 1.65,65.5,Normal Weight
 1.7,75.6,Overweight
 1.75,85.8,Overweight
-1.8,95.9,Overweight
-1.67,68,Normal Weight
 1.72,78.2,Overweight
 1.77,88.3,Overweight
 1.82,98.4,Overweight
@@ -576,18 +579,15 @@ Height,Weight,BmiClass
 1.78,85.7,Overweight
 1.83,96.1,Overweight
 1.88,107.2,Obese
-1.74,78.1,Overweight
 1.8,88.2,Overweight
 1.85,98.7,Overweight
 1.76,80.7,Overweight
 1.82,90.6,Overweight
-1.87,101.3,Overweight
 1.78,83.3,Overweight
 1.84,93.1,Overweight
 1.89,104,Overweight
 1.8,85.8,Overweight
 1.86,95.7,Overweight
-1.91,106.9,Overweight
 1.82,88.4,Overweight
 1.88,98.5,Overweight
 1.93,109.9,Overweight
