@@ -12,10 +12,8 @@
 
 namespace cll {
 
-    KNN::KNN(size_t newK, DataScalingMethods scaling_method) {
-        assert(newK > 0);
-
-        K = newK;
+    KNN::KNN(size_t newK, DataScalingMethods scaling_method) : K(newK) {
+        assert(K > 0);
 
         switch (scaling_method) {
             case NONE:
