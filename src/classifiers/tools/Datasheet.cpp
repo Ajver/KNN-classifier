@@ -61,7 +61,11 @@ namespace cll {
         return ds;
     }
 
-    std::pair<Datasheet, Datasheet> Datasheet::train_test_split(Datasheet &ds, float train_ratio) {
+    std::pair<Datasheet, Datasheet> Datasheet::train_test_split(Datasheet &ds, float train_ratio, int random_state) {
+        if (random_state > 0) {
+            srand(random_state);
+        }
+
         size_t train_size =  ds.X.size() * train_ratio;
         size_t test_size = ds.X.size() - train_size;
 
@@ -69,7 +73,7 @@ namespace cll {
         Datasheet test_ds{std::vector<std::vector<float>>(test_size), std::vector<int>(test_size), ds.class_to_int, ds.int_to_class};
 
         for (int i = 0; i < test_size; i++) {
-            size_t random_idx = rand() % test_ds.X.size();
+            size_t random_idx = rand() % train_ds.X.size();
             test_ds.X[i] = train_ds.X[random_idx];
             test_ds.Y[i] = train_ds.Y[random_idx];
             train_ds.X.erase(train_ds.X.begin() + random_idx);

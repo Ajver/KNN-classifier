@@ -15,7 +15,7 @@ namespace cll {
 
         static Datasheet load_from_csv(const std::string&, int, int=0);
 
-        static std::pair<Datasheet, Datasheet> train_test_split(Datasheet&, float);
+        static std::pair<Datasheet, Datasheet> train_test_split(Datasheet&, float, int=-1);
 
         void save_as_csv(const std::string&, std::vector<std::string> = {});
     };
