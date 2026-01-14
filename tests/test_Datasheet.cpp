@@ -178,7 +178,7 @@ TEST(DatasheetTest, TrainTestSplit) {
     create_file("tests/test2.csv", "1,1,1\n2,2,2\n3,3,3\n4,4,4\n5,5,5");
     Datasheet data = Datasheet::load_from_csv("tests/test2.csv", 0, 0);
 
-    pair train_test_split = Datasheet::train_test_split(data, 0.6);
+    pair train_test_split = Datasheet::train_test_split(data, 0.6, 42);
     Datasheet train_data = train_test_split.first;
     Datasheet test_data = train_test_split.second;
 
@@ -200,12 +200,12 @@ TEST(DatasheetTest, TrainTestSplit) {
     EXPECT_NEAR(train_data.X[2][1], 5, 1e-3);
     EXPECT_EQ(train_data.Y[2], 5);
 
-    EXPECT_NEAR(test_data.X[0][0], 1, 1e-3);
-    EXPECT_NEAR(test_data.X[0][1], 1, 1e-3);
-    EXPECT_EQ(test_data.Y[0], 1);
+    EXPECT_NEAR(test_data.X[0][0], 2, 1e-3);
+    EXPECT_NEAR(test_data.X[0][1], 2, 1e-3);
+    EXPECT_EQ(test_data.Y[0], 2);
 
-    EXPECT_NEAR(test_data.X[1][0], 2, 1e-3);
-    EXPECT_NEAR(test_data.X[1][1], 2, 1e-3);
-    EXPECT_EQ(test_data.Y[1], 2);
+    EXPECT_NEAR(test_data.X[1][0], 1, 1e-3);
+    EXPECT_NEAR(test_data.X[1][1], 1, 1e-3);
+    EXPECT_EQ(test_data.Y[1], 1);
 }
 
